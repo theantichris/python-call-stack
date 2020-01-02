@@ -13,6 +13,8 @@ def sum_to_one(n):
     while len(call_stack) is not 0:
         return_value = call_stack.pop()
         print(call_stack)
+        print("Adding {} to {}".format(return_value["n_value"], result))
+        result += return_value["n_value"]
 
     return result, call_stack
 
