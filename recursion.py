@@ -8,6 +8,8 @@ def sum_to_one(n):
         n -= 1
         print(call_stack)
 
+    print("BASE CASE REACHED")
+
     return result, call_stack
 
 sum_to_one(4)
